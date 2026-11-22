@@ -60,7 +60,7 @@ def union(parent, rank, a, b):
 
 
 def kruskal(N, edges):
-    edges = sorted(edges)  
+    edges = sorted(edges)
     parent = list(range(N))
     rank = [0] * N
     mst, total = [], 0
