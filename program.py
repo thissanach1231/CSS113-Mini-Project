@@ -131,7 +131,7 @@ def k():
     show(N, mst, total)
 
 def DFSBFS():
-    start = input("Enter the starting node for DFS and BFS: ").strip()
+    start = int(input("Enter the starting node for DFS and BFS: "))
     visited = set()
     print("DFS-BFS Algorithm")
     print("DFS:")
