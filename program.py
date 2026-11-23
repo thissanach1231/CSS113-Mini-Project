@@ -1,7 +1,6 @@
 from collections import deque
 from re import match
 import heapq
-import sys
 
 file_name = input("Enter the file path (e.g., data.txt): ")
 
@@ -193,7 +192,6 @@ def p():
 
     if not (0 <= start < N):
         print(f"Start vertex must be between 0 and {N - 1}")
-        sys.exit(1)
 
     edges, total, connected = prim(graph, N, start)
     show_result(edges, total, connected)
