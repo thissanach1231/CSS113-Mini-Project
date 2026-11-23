@@ -185,19 +185,33 @@ Ensure that the input file follows the required format before executing the appl
 
 After completing the installation and environment configuration:
 
-1. Open the project directory in Visual Studio Code.
-2. Open the integrated terminal.
-3. Navigate to the project directory.
-4. Execute the application's main Python file.
+### 3.4.1 Testing the Application
 
-For example, if the entry point is `main.py`:
+To test the application, follow the instructions below:
 
-```bash
-python main.py
+1. When prompted for the input file, enter:
+
+```text
+data.txt
 ```
 
-5. Provide the required input data according to the application's instructions.
-6. The program will process the graph and display the corresponding algorithm results in the terminal.
+2. When prompted for the starting node, enter:
+
+```text
+0
+```
+
+3. When prompted for the destination node, enter:
+
+```text
+4
+```
+
+4. Press **Enter** after each input to proceed.
+
+> **Note:** The example assumes that `data.txt` contains nodes `0` and `4`. If node `4` is not available in the input graph, use a valid destination node instead.
+
+The application will then process the provided graph and display the corresponding results for the selected algorithms in the terminal.
 
 ---
 
