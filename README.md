@@ -18,17 +18,7 @@
 	Input data will be required to follow the following regulation.
 	- Must be undirected graph
 	- Each edge must have its own weight
-	- No such connection that would be sharing the same set of 
-  vertex
-1.5 Terminology
-	The following term will be used to shorten certain terms for more unified understanding.
-
-	MST	Minimum Spanning Tree
-	OS	Operating System
-    IDE	Integrated Development Environment
-    VCS	Version Control System
-    Edge	Connection between node
-    Leaf	Node which has no children
+	- No such connection that would be sharing the same set of vertex
 
 
 2. Developing Environment, Library & Version Controls
@@ -47,8 +37,10 @@ Developer 3
 OS = Windows 11
 IDE = Visual Studio Code 
 VCS = Git 
+
 2.2 Programming Languages
 	Python 3.14.0
+
 2.3 Libraries
 collections	for queue
 re		for match
@@ -83,7 +75,13 @@ The following steps are source code set up and will be essential to receive the 
 
 	
 3.3 Environment Configuration
-	The application will only read a file named “ data.txt ” that lives within the same level as the algorithm file structure and content contained inside must follow standard regulation in the regulation section.
+	The application will only have a capability to read .txt format and content contained inside must follow standard regulation in the regulation section.
 	
 3.4 Initialize Application
-Open any algorithm of your choice. Then hit the run button. The output will be shown in the terminal.
+Input data set following terminal command recommendation. The output will be shown in the terminal.
+
+
+Limitations & Regulation
+	
+Nodes can only be numbers which are required to start from 0 and continue by 1. For example, 0 => 1 => 2 => 3 => … . 
+Therefore, if the data contains the alphabet, then the alphabet must be changed to numbers following the regulation.
